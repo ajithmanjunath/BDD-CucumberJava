@@ -3,3 +3,5 @@
 cucumber.iml
 target
 *.iml
+Drivers/win/
+*.exe

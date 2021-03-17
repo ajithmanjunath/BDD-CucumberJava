@@ -4,7 +4,7 @@ BDD framework is built using Cucumber, Java and Maven. JUnit and TestNG are used
 
 ## Getting Started
 
-Download and extract all the files. Import as Maven project into your respective IDE. Wait for maven dependencies to download all sources and update the project on a live system.
+You can clone from the repository link.
 
 ### Prerequisites
 
@@ -21,21 +21,21 @@ MAVEN_HOME = C:\apache-maven-3.6.1\bin
 ## Framework capabilities
 
 1. Modular designed using POM
-2. Reusability and Scalability
-3. Extension for multi browser support test execution
-4. Auto-Rerun of failed test cases
-5. Report generation with screenshots on failure scenarios. Can be extended to all scenarios.
-6. Tests can be scripted as per needs using JUnit or TestNG 
-7. No external storage of screenshots.
-8. Report back up for every test execution.
-9. Logging mechanism is implement using log4j.
+2. Testdata modularised for different environment using Json
+3. Report generation with screenshots on failure scenarios. Can be extended to all scenarios.
+4. Extension for multi browser support test execution
+5. Auto-Rerun of failed scenarios
+6. Reusable and Scalable
+7. Tests can be scripted as per needs with JUnit or TestNG
+8. No external storage of screenshot captured.
+9. Report back up after test execution is completed.
+10. Logging mechanism is implement using log4j.
 
 ## Running the tests
 
-1. Maven command execution
-2. Batch file execution
-3. TestNG xml file execution
-4. JUnit level test execution
+1. Maven command execution ( mvn verify -Denv=prod)
+2. testng.xml file execution ( Please provide -Denv=prod in runtime arguments for TestRunner.Java file before execution)
+3. JUnit level test execution ( Please provide -Denv=prod in runtime arguments for TestRunner.Java file before execution)
 
 ### And coding style tests
 
@@ -65,10 +65,3 @@ None
 ## Authors
 
 * **Ajith Manjunath**
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration and learning
-* etc
-

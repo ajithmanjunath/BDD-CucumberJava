@@ -1,0 +1,21 @@
+{
+"validaddress":
+				{
+				 "url":"https://www.johnlewis.com",
+				 "productName":"Peony Artificial Casablanca Lilies, White",
+				 "email":"bob@mailinator.com",
+				 "title":"Mr",
+				 "firstName":"Bob",
+				 "lastName":"Test",
+				 "phoneNumber":"1234567890",
+				 "addressLine1":"K P M G Llp",
+				 "addressLine2":"15",
+				 "addressLine3":"Canada Square",
+				 "addressTownOrCity":"London",
+				 "postcode":"E14 5GL"
+				 },
+ "invalidaddress":
+ 				{
+ 				"url":"http://google.com"
+ 			}
+}

@@ -43,8 +43,8 @@ Java code style template is used
 
 ```
 /**
-* Created by Planit Software Testing Limited
-* @author:	Engineer 
+* Created by Ajith Manjunath 
+* @author:	Ajith Manjunath 
 * Date:		17 Aug 2019
 * Purpose:	To have collective action methods for particular page
 */
